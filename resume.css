@@ -1,0 +1,340 @@
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+body {
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Rokkitt', serif;
+    margin: 0px;
+    font-size: 10px;
+}
+
+.hireMe{
+    border: 1px solid rgb(3, 154, 255);
+    background-color: rgb(3, 154, 255);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.title2{
+    color: white;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Rokkitt', serif;
+    font-size: 40px;
+}
+
+.Contact{
+    border-radius: 100px;
+    border-style: solid;
+    padding: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    color: rgb(3, 154, 255);
+    font-size: 20px;
+    background-color: white;
+    border-color: white;
+    font-size: 25px;
+}
+
+.Contact:hover{
+    animation: pop .8s linear infinite;    
+    text-decoration: none;
+    color: rgb(3, 154, 255);
+}
+
+.annoyingLink{
+    color: rgb(3, 154, 255);
+}
+
+.annoyingLink:hover{
+    text-decoration: none;
+    color: rgb(3, 154, 255);
+}
+
+.parallax {
+    background-color: black;
+    background-image: url("Weird.gif");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 550px;
+  }
+
+.namE{
+    position: absolute;
+    top: 43%;
+    left: 43.5%;
+    color: rgb(3, 154, 255);
+    border-radius: 30px;
+    box-shadow: 0 0 10px 4px rgb(3, 154, 255); 
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    font-family: 'Lora';
+}
+
+.name{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Rokkitt', serif;
+    font-size: 28px;
+}
+
+.description{
+    text-align: center;
+}
+
+.descrip{
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Rokkitt', serif;
+    font-size: 20px;
+}
+
+.head{
+    color: rgb(3, 154, 255);
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Rokkitt', serif;
+}
+
+.header{
+    border-style: solid;
+    background-color: black; 
+    border-color: black;
+    box-shadow: 0 -5px 15px 0 rgb(3, 154, 255); 
+}
+
+.line1{
+    border-style: solid;
+    border-color: rgb(3, 154, 255);
+    position: absolute;
+    top: 99.9%;
+    left: -1%;
+    width: 100.99%;
+}
+
+.line2{
+    border-style: solid;
+    border-color: rgb(3, 154, 255);
+    width: 95%;
+}
+
+.picture{
+    padding-top: 20px;
+    text-align: center;
+    height: 180px;
+    align-items: center;
+}
+
+.col-9{
+    padding-top: 20px;
+}
+
+.contact1{
+    border: 1px solid rgb(3, 154, 255);
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgb(3, 154, 255);
+    color: white;
+    font-size: 25px;
+}
+
+.contact2{
+    border: 1px solid rgb(3, 154, 255);
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(3, 154, 255);
+    color: white;
+    font-size: 25px;
+}
+
+.services{
+    font-size: 20px;
+}
+
+.line3{
+    border-style: solid;
+    border-color: rgb(3, 154, 255);
+    width: 100%;
+    height: 1px;
+}
+
+.in-nav{
+    border-radius: 5px;
+    background-color: rgba(3, 154, 255, 0.459);
+    text-align: center;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+.con-info{
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover {
+    list-style: none;
+    text-decoration: none;
+    cursor: defalt;
+}
+
+p a, p a:hover{
+    color: black;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.623);
+  }
+
+.conInfo{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.623);
+}
+
+.title{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(3, 154, 255);
+    background-color: rgb(3, 154, 255); 
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+.info{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+.skill{
+    height: 140px;
+    width: 170.6px;
+}
+
+.skill:hover {
+	animation: rotate-horizontal 1.5s linear infinite;
+}
+
+@keyframes rotate-horizontal {
+	0% {
+		transform: rotateX(0deg);
+	}
+	100% {
+		transform: rotateX(360deg);
+	}
+}
+
+.skill3{
+    height: 170px;
+}
+
+.skill3:hover {
+	animation: rotate-vertical 1.5s linear infinite;
+}
+
+.skill4{
+    height: 150px;
+    padding-left: 10px;
+}
+
+.skill4:hover{
+    animation: pop .8s linear infinite;
+}
+
+@keyframes pop {
+	0% {
+		transform: scale(1,1);
+	}
+	50% {
+		transform: scale(1.1,1.1);
+	}
+	100% {
+		transform: scale(1,1);
+	}
+}
+
+
+@keyframes rotate-vertical {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+
+.skill2{
+    height: 150px;
+    padding-left: 10px;
+}
+
+.skill2:hover{
+    animation:spin 2s linear infinite;
+}
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.skillName{
+    text-align: center;
+    font-size: 20px;
+    border-style: solid;
+    color: white;
+    border-color: rgb(3, 154, 255);
+    background-color: rgb(3, 154, 255); 
+    opacity: 0;
+    transition: all .2s;
+    width: 90%;
+}
+
+.test:hover .skillName{
+    opacity: 1;
+    transform: translateY(10px);
+}
+
+.row2{
+    margin: 3%;
+}
+
+.proName{
+    text-align: center;
+    font-family: 'Lora';
+}
+
+.screenshot{
+    height: 300px;
+    width: 565px;
+}
+
+.project{
+    height: 150px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    border-radius: 5px;
+}
+
+
+.pro1{
+    display: hide;
+    text-align: center;
+    margin: 30%;
+    position: absolute;
+    top: 6%;
+    color: white;
+    
+}
+
+.border{
+    border-style: solid;
+}
+
+.foot{
+    text-align: center;
+    padding: 0px;
+    font-size: 30px;
+}
+
