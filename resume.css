@@ -317,7 +317,6 @@ p a, p a:hover{
     border-radius: 5px;
 }
 
-
 .pro1{
     display: hide;
     text-align: center;
@@ -338,3 +337,25 @@ p a, p a:hover{
     font-size: 30px;
 }
 
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
+
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: portrait) {
+
+}
+
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) 
+  and (orientation: landscape) {
+
+}
