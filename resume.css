@@ -104,21 +104,6 @@ body {
     box-shadow: 0 -5px 15px 0 rgb(3, 154, 255); 
 }
 
-.line1{
-    border-style: solid;
-    border-color: rgb(3, 154, 255);
-    position: absolute;
-    top: 99.9%;
-    left: -1%;
-    width: 100.99%;
-}
-
-.line2{
-    border-style: solid;
-    border-color: rgb(3, 154, 255);
-    width: 95%;
-}
-
 .picture{
     padding-top: 20px;
     text-align: center;
