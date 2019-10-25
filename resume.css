@@ -3,7 +3,7 @@
 body {
     font-family: 'Comfortaa', cursive;
     font-family: 'Rokkitt', serif;
-    margin: 0px;
+    margin: 0%;
     font-size: 10px;
 }
 
@@ -19,6 +19,23 @@ body {
     font-family: 'Comfortaa', cursive;
     font-family: 'Rokkitt', serif;
     font-size: 40px;
+}
+
+.title3{
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(3, 154, 255);
+    background-color: rgb(3, 154, 255); 
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 25px;
+    font-size: 30px;
+}
+
+.container{
+    margin: 0px;
 }
 
 .Contact{
@@ -40,9 +57,6 @@ body {
     color: rgb(3, 154, 255);
 }
 
-.annoyingLink{
-    color: rgb(3, 154, 255);
-}
 
 .annoyingLink:hover{
     text-decoration: none;
@@ -60,9 +74,8 @@ body {
   }
 
 .namE{
-    position: absolute;
-    top: 43%;
-    left: 43.5%;
+    position: relative;
+    margin-top: 22.5%;
     color: rgb(3, 154, 255);
     border-radius: 30px;
     box-shadow: 0 0 10px 4px rgb(3, 154, 255); 
@@ -71,6 +84,14 @@ body {
     padding-bottom: 3px;
     padding-top: 3px;
     font-family: 'Lora';
+    align-items: center;
+    display: inline-block;
+    height: 100%;
+}
+
+.nAme{
+    width: 100%;
+    text-align: center;
 }
 
 .name{
@@ -104,6 +125,14 @@ body {
     box-shadow: 0 -5px 15px 0 rgb(3, 154, 255); 
 }
 
+
+
+.line2{
+    border-style: solid;
+    border-color: rgb(3, 154, 255);
+    width: 95%;
+}
+
 .picture{
     padding-top: 20px;
     text-align: center;
@@ -116,13 +145,13 @@ body {
 }
 
 .contact1{
-    border: 1px solid rgb(3, 154, 255);
-    padding: 5px;
-    text-align: center;
+    border: 1px solid rgb(3, 154, 255); 
     border-radius: 5px 5px 0px 0px;
+    text-align: center;
     background-color: rgb(3, 154, 255);
     color: white;
     font-size: 25px;
+    padding: 5px;
 }
 
 .contact2{
@@ -154,6 +183,18 @@ body {
     100%{color: black;}
 } 
 
+@keyframes pop2 {
+	0% {
+		transform: scale(1,1);
+	}
+	50% {
+		transform: scale(1.1,1.1);
+	}
+	100% {
+		transform: scale(1.1,1.1) ;
+	}
+}
+
 .line3{
     border-style: solid;
     border-color: rgb(3, 154, 255);
@@ -166,7 +207,23 @@ body {
     background-color: rgba(3, 154, 255, 0.459);
     text-align: center;
     border-radius: 5px;
-    padding-bottom: 20px;
+}
+
+
+.in-con{
+    background-color: rgba(3, 154, 255, 0.459); 
+}
+
+.edu{
+    background-color: rgba(3, 154, 255, 0.459);
+    text-align: center;
+    padding-bottom: 20px; 
+}
+
+.edu-info{
+    font-size: 20px;
+    text-decoration: none;
+    padding-left: 10px;
 }
 
 .con-info{
@@ -310,18 +367,20 @@ p a, p a:hover{
 
 .project{
     height: 150px;
-    align-items: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    border-radius: 5px;
+    width: 210px;
+    align-items: center;
+    text-align: center;
+}
+
+.col-sm-4{
+    align-items: auto;
 }
 
 .pro1{
     display: hide;
     text-align: center;
-    margin: 30%;
+
     position: absolute;
     top: 6%;
     color: white;
@@ -338,25 +397,6 @@ p a, p a:hover{
     font-size: 30px;
 }
 
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) {
-
-}
-
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: portrait) {
-
-}
-
-@media screen 
-  and (device-width: 360px) 
-  and (device-height: 640px) 
-  and (-webkit-device-pixel-ratio: 4) 
-  and (orientation: landscape) {
-
+#icon{
+    height: 30px;
 }
