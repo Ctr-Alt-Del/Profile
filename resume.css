@@ -7,6 +7,11 @@ body {
     font-size: 10px;
 }
 
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
 .hireMe{
     border: 1px solid rgb(3, 154, 255);
     background-color: rgb(3, 154, 255);
@@ -66,16 +71,15 @@ body {
 .parallax {
     background-color: black;
     background-image: url("Weird.gif");
-    min-height: 500px; 
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: 550px;
+    background-size:75%;
+    height: 102%;
   }
 
 .namE{
-    position: relative;
-    margin-top: 22.5%;
+    margin-top: 35%;
     color: rgb(3, 154, 255);
     border-radius: 30px;
     box-shadow: 0 0 10px 4px rgb(3, 154, 255); 
@@ -87,11 +91,51 @@ body {
     align-items: center;
     display: inline-block;
     height: 100%;
+    background-attachment: fixed;
+
 }
+
+@media only screen and (max-device-width: 800px) {
+  .parallax {
+    height: 40%;
+  }
+}
+
+/* @media only screen and (max-device-width: 800px) {
+    .contacts{
+        float: right;
+    }
+
+
+@media only screen and (max-device-width: 800px){
+    .about1{
+        float: left;
+    }
+}*/ 
+
+/* @media only screen and (max-device-width: 800px){
+    .test{
+        width: 100px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-device-width: 800px){
+    .col-xs-3{
+        width: 200%;
+    }
+}
+
+@media only screen and (max-device-width: 800px){
+    .row{
+        float: left;
+    }
+} */
 
 .nAme{
     width: 100%;
     text-align: center;
+    background-attachment: fixed;
 }
 
 .name{
@@ -122,7 +166,7 @@ body {
     border-style: solid;
     background-color: black; 
     border-color: black;
-    box-shadow: 0 -5px 15px 0 rgb(3, 154, 255); 
+    box-shadow: 0 -10px 30px 0 rgb(3, 154, 255); 
 }
 
 
@@ -130,7 +174,7 @@ body {
 .line2{
     border-style: solid;
     border-color: rgb(3, 154, 255);
-    width: 95%;
+    width: 100%;
 }
 
 .picture{
@@ -152,6 +196,7 @@ body {
     color: white;
     font-size: 25px;
     padding: 5px;
+
 }
 
 .contact2{
