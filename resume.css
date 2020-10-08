@@ -82,19 +82,29 @@ body, html{
 
 .tip{
     color: rgb(3, 154, 255);
-    margin-top: 33%;
     font-size: 17px;
     font-weight: bold;
     text-shadow: 0 0px 10px rgb(3, 154, 255), 0 0px 30px rgb(3, 154, 255); 
-    background-attachment: fixed;
+
+}
+
+@media only screen and (max-device-width: 800px){
+    .tip{
+        visibility: hidden;
+    }
 }
 
 .arrow{
     color: rgb(3, 154, 255);
-    margin-top: -1.5%;
     font-size: 25px;
-    font-weight: 100;
     text-shadow: 0 0px 10px rgb(3, 154, 255), 0 0px 30px rgb(3, 154, 255); 
+    margin-top: -1%;
+}
+
+@media only screen and (max-device-width: 800px){
+    .arrow{
+        visibility: hidden;
+    }
 }
 
 @media only screen and (max-device-width: 800px) {
@@ -350,6 +360,10 @@ p a, p a:hover{
     width: 210px;
     align-items: center;
     text-align: center;
+}
+
+.col-sm-4{
+    align-items: auto;
 }
 
 #icon{
