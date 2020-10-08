@@ -85,7 +85,6 @@ body, html{
     font-size: 17px;
     font-weight: bold;
     text-shadow: 0 0px 10px rgb(3, 154, 255), 0 0px 30px rgb(3, 154, 255); 
-
 }
 
 @media only screen and (max-device-width: 800px){
